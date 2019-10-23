@@ -30,6 +30,8 @@
     "twitter"
   ],
   "main": "./lib/index.js",
+  "types": "index.d.ts",
+  "typings": "index.d.ts",
   "engines": {
     "node": ">=0.8"
   },
