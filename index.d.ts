@@ -42,6 +42,7 @@ declare module 'gnip' {
 		getByIds(): Promise<PowertrackRule[]>
 		add(rules: string[] | PowertrackRule[]): Promise<PowertrackAddRemoveRuleResult>
 		removeByIds(rules: string[] | PowertrackRule[]): Promise<PowertrackAddRemoveRuleResult>
+    removeAll(): Promise<PowertrackAddRemoveRuleResult>
 	}
 
 	export class Rules {
